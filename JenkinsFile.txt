@@ -1,0 +1,12 @@
+node {
+			stage('Maven-Compile'){
+				echo 'Test Stage'
+				
+			}
+			stage('Maven Test'){
+			bat 'mvn test'
+				
+			}
+
+
+}
