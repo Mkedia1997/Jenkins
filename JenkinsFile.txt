@@ -6,10 +6,11 @@ node {
 			
 			stage('Maven-Compile'){
 				echo 'Test Stage'
+				bat 'mvn compile'
 				
 			}
 			stage('Maven Test'){
-			bat 'mvn test'
+				bat 'mvn test'
 				
 			}
 
