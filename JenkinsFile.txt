@@ -1,4 +1,9 @@
 node {
+			stage ('SCM Checkout'){
+				git 'https://github.com/Mkedia1997/Jenkins'
+			}
+			
+			
 			stage('Maven-Compile'){
 				echo 'Test Stage'
 				
