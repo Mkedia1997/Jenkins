@@ -8,12 +8,16 @@
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
-  <dependcies>
-  <dependency>
+  
+  
+  <dependencies>
+  
+  	<dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13</version>
     <scope>test</scope>
 </dependency>
-   </dependcies>
+   </dependencies>
+  
 </project>
